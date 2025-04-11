@@ -1,0 +1,20 @@
+[project]
+title = "AI Impact App"
+version = "0.1.0"
+port = 8501
+slug = "coding-assessment-355884"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "AI Impact App"
+logo = "images/mylogo.png"
+favicon = "images/myfavicon.ico"
+primaryColor = "#F89613"
+
+[data.ai_impact_csv]
+type = "csv"
+path = "data/Global_AI_Content_Impact_Dataset.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
